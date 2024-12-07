@@ -10,93 +10,21 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="assests/images/logo.png" alt="Logo">
+            <img src="./assets/img/logo.png" alt="Logo">
         </a>
-        
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            <img src="assests/images/search-3-1.png" id="btnBusca" alt="Buscar"/>
-         </div>
+
+        <div class="search-bar d-flex">
+            <input id="search-input" type="text" class="form-control me-2" placeholder="Buscar séries...">
+            <button id="search-btn" class="btn btn-primary">Buscar</button>
+        </div>
     </header>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-3">
-                <div>
-                    <h1>Filtros de Pesquisa</h1>
-                    <ol>
-                        <li>Ficção Científica</li>
-                        <li>Ações</li>
-                        <li>Animação</li>
-                        <li>Terror</li>
-                        <li>Aventura</li>
-                        <li>Comédia</li>
-                        <li>Romance</li>
-                    </ol>
-                </div>
-            </div>
+    <main class="container my-5">
+        <h1 class="text-center">Explorador de Séries</h1>
+        <div id="search-results" class="row mt-4"></div>
+    </main>
 
-            <div class="col-md-9">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="assests/images/SpyXfamily.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 1</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assests/images/La Casa de Papel Primeira Temporada.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 2</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assests/images/Loki_season_1_poster.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 3</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assests/images/theBoys.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 4</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assests/images/moon.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 4</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assests/images/Saul.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 4</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/public/assets/scripts/explorer.js"></script>
 </body>
 </html>

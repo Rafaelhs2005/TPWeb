@@ -1,40 +1,32 @@
 {
-    "usuarios":[
-        {
-            "id": 1,
-            "nome": "Rafael Henrique Silva",
-            "curso": "Ciencia da Computação",
-            "email": "rhenriques.2005@gamil.com",
-            "linkFacebook": "https://www.facebook.com/rafaelhenrique.silva.1238/",
-            "linkTwitter": "https://x.com/rafaelh24075317",
-            "linkInstagram": "https://www.instagram.com/rafaelhs2005/",
-            "biografia": "Aluno do curse de ciancia da computação Puc minas cursando o primeiro periodo",
-            "avatar": "public/assets/img/eu.jpeg"
-        }
-    ],
-    
-    "favoritos":[
-        {
-            "id": 1,
-            "id_serie": 1,
-            "id_usuario": 1
-        }
-    ],
-
-    "series" : [
-        [
-            {
-                "id": 1,
-                "name": "Série 1",
-                "poster_path": "/path/to/poster1.jpg",
-                "overview": "Descrição curta da série 1"
-            },
-            {
-                "id": 2,
-                "name": "Série 2",
-                "poster_path": "/path/to/poster2.jpg",
-                "overview": "Descrição curta da série 2"
-            }
-        ]
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Rafael Henrique Silva",
+      "curso": "Ciencia da Computação",
+      "email": "rhenriques.2005@gamil.com",
+      "linkFacebook": "https://www.facebook.com/rafaelhenrique.silva.1238/",
+      "linkTwitter": "https://x.com/rafaelh24075317",
+      "linkInstagram": "https://www.instagram.com/rafaelhs2005/",
+      "biografia": "Aluno do curse de ciancia da computação Puc minas cursando o primeiro periodo",
+      "avatar": "public/assets/img/eu.jpeg"
+    }
+  ],
+  "favoritos": [
+    {
+      "id_serie": 209867,
+      "id_usuario": 1,
+      "id": 2
+    },
+    {
+      "id_serie": 235484,
+      "id_usuario": 1,
+      "id": 3
+    },
+    {
+      "id_serie": 257064,
+      "id_usuario": 1,
+      "id": 4
+    }
+  ]
 }

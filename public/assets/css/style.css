@@ -1,11 +1,10 @@
-/* Definindo o fundo da página */
+
 body {
     background-color: rgb(45, 45, 45);
     color: white;
     font-family: Arial, sans-serif;
 }
 
-/* Estilo para o cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
@@ -15,18 +14,24 @@ header {
     border-bottom: 1px solid #444;
 }
 
-/* Tamanho do logo */
 header img {
     max-height: 150px;
 }
 
-/* Barra de busca no lado direito */
+header a {
+    text-decoration: none; 
+    color: white; 
+}
+
+header a:hover {
+    color: #ccc; 
+}
+
 .menu {
     display: flex;
     align-items: center;
 }
 
-/* Estilizando a barra de busca */
 #search-bar {
     padding: 5px;
     border-radius: 20px;
@@ -39,7 +44,6 @@ header img {
     color: white;
 }
 
-/* Estilo da lupa */
 .search-icon {
     position: absolute;
     left: 10px;
@@ -52,25 +56,24 @@ header img {
     background-position: center;
 }
 
-/* Cards de conteúdo */
+
 .card {
     background-color: rgb(35, 35, 35);
     color: white;
-    margin-bottom: 20px;  /* Espaço entre os cards */
-    width: 18rem;  /* Tamanho fixo para os cards */
-    height: 100%;  /* Garante que o card ocupe toda a altura disponível */
+    margin-bottom: 20px;  
+    width: 18rem;  
+    height: 100%;  
     display: flex;
     flex-direction: column;
 }
 
-/* Para manter as imagens e textos proporcionais */
 .card-img-top {
     max-height: 250px;
-    object-fit: cover;  /* Mantém a proporção da imagem */
+    object-fit: cover;  
 }
 
 .card-body {
-    flex-grow: 1;  /* Faz o corpo do card ocupar o restante do espaço disponível */
+    flex-grow: 1; 
     padding: 15px;
 }
 
@@ -86,18 +89,16 @@ header img {
     font-size: 0.9rem;
 }
 
-/* Linha embaixo dos títulos */
 .card-title::after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px;  /* Espessura da linha */
-    background-color: white;  /* Cor da linha */
+    height: 2px;  
+    background-color: white;  
 }
 
-/* Links dos botões */
 .btn-primary,
 .btn-info,
 .btn-danger {
@@ -115,32 +116,28 @@ header img {
     border-color: #dc3545 !important;
 }
 
-/* Container de cards de séries novas */
 #new-series-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;  /* Espaço entre os cards */
+    gap: 20px;  
 }
 
-/* Para garantir que os cards ocupem o mesmo tamanho no layout */
 .card-deck .card {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-/* Estilo da seção de informações do autor */
 #author-info {
     width: 100%;
-    background-color: rgb(35, 35, 35);  /* Cor de fundo para a seção */
-    padding: 40px 20px;  /* Espaço interno */
+    background-color: rgb(35, 35, 35);  
+    padding: 40px 20px;  
     margin-top: 20px;
     box-sizing: border-box;
-    border-top: 2px solid white;  /* Linha branca no topo */
-    border-bottom: 2px solid white;  /* Linha branca na parte inferior */
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white;  
 }
 
-/* Estilo do card de informações do autor */
 #author-info .card {
     background-color: rgb(35, 35, 35);
     border: none;
