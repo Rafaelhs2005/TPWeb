@@ -1,0 +1,22 @@
+{
+    "usuarios":[
+        {
+            "id": 1,
+            "nome": "Rafael Henrique Silva",
+            "curso": "Ciencia da Computação",
+            "email": "rhenriques.2005@gamil.com",
+            "linkFacebook": "https://www.facebook.com/rafaelhenrique.silva.1238/",
+            "linkTwitter": "https://x.com/rafaelh24075317",
+            "linkInstagram": "https://www.instagram.com/rafaelhs2005/",
+            "biografia": ""
+        }
+    ],
+    
+    "favoritos":[
+        {
+            "id": 1,
+            "id_serie": 1,
+            "id_usuario": 1
+        }
+    ]
+}
